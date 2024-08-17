@@ -10,6 +10,8 @@ public class PgClothing {
 
         for (int i=0; i<clothes.length; i++){
             clothesMap.put(clothes[i][1], clothesMap.getOrDefault(clothes[i][1],0)+1);
+            // 해쉬맵 이용시 계속해서 값을 업로드해야 되는 경우는 getOrDefault를 통해 값을 가져와 연산하는 것이 편리
+            // 0으로 디폴트 값을 설정해야 계속해서 +1 을 적용가능
         }
 
         for (int value: clothesMap.values()){
