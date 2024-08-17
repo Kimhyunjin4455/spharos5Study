@@ -16,7 +16,7 @@ public class BJ_1021 {
 
         LinkedList<Integer> deque = new LinkedList<Integer>();
 
-        int count = 0;  // 덱의 연산 횟수
+        int count = 0;
 
         int [] n_list = new int[m];
 
