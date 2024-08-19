@@ -9,54 +9,54 @@ public class PgBestAlbum {
     // 컬렉션 정렬 필요
     // 스트림
     public int[] solution(String[] genres, int[] plays) {
-        ArrayList<Integer> answer = new ArrayList<>();
-        HashMap<String, Integer> rankMap = new HashMap<>(); // 장르별 총 재생횟수 저장하기 위함
-        HashMap<String, HashMap<Integer, Integer>> genreInfoMap = new HashMap<>(); // 장르별 노래의 원래 인덱스 정보(idx), 재생횟수(playTimes)
-
-        for (int i=0; i< genres.length; i++){
-            if (!rankMap.containsKey(genres[i])){
-                HashMap<Integer, Integer> singInfoMap = new HashMap<>();
-                singInfoMap.put(i, plays[i]); // 노래 정보에는 노래의 인덱스 정보와 재생횟수 저장
-                genreInfoMap.put(genres[i], singInfoMap);
-                rankMap.put(genres[i], plays[i]);
-            }else {
-                genreInfoMap.get(genres[i]).put(i, plays[i]); // 위에서 선언했던 해시맵 변수를 사용불가능 함 -> genreInfoMap 통해 값 이용
-                rankMap.put(genres[i], rankMap.get(genres[i])+plays[i]); // 같은 장르에 대해 계속 값 업데이트 (총 횟수 저장)
-            }
-        }
-
-        List<String> keySet = new ArrayList<>(rankMap.keySet()); // 장르별 총 횟수 정렬을 위한 밑준비 (장르를 따로 저장)
-        Collections.sort(keySet, (s1, s2) -> rankMap.get(s2) - rankMap.get(s1)); // 내림차순 정렬 공식, 키에 해당하는 value에 대해 진행, 총 재생횟수 기준 내림차순 정렬
-
-        /** Collections.sort() 에서 람다를 이용한 정렬
-          Collections.sort(list, (o1, o2) -> {
-              // 비교 로직
-              // ex: Collections.sort(people, (p1, p2) -> p1.getAge() - p2.getAge());
-          });
-         Collections.sort(numbers, (a, b) -> a - b); // 오름차순 정렬
-         Collections.sort(numbers, (a, b) -> b - a); // 내림차순 정렬
-
-         람다 표현식 내에서 두 객체의 비교 결과
-         음수: o1이 o2보다 작음 -> 오름차순
-         0: 두 객체가 같음
-         양수: o1이 o2보다 큼 -> 내림차순
-
-          */
-
-
-        for(String key: keySet){
-            HashMap<Integer, Integer> singInfoMap = genreInfoMap.get(key); // 위의 singInfoMap 과는 다름, 각 곡들에 대하여 할 예정
-            ArrayList<Integer> genreKey = new ArrayList<>(singInfoMap.keySet());
-
-            Collections.sort(genreKey, (s1, s2) -> singInfoMap.get(s2) - singInfoMap.get(s1)); // 각 곡의 횟수에 대해 내림차순 정렬
-
-            answer.add(genreKey.get(0));
-            if (genreKey.size()>1){ // 이 경우는 곡이 2개 이상일 경우
-                answer.add(genreKey.get(1));
-            }
-        }
-
-        return answer.stream().mapToInt(i -> i).toArray();
+//        ArrayList<Integer> answer = new ArrayList<>();
+//        HashMap<String, Integer> rankMap = new HashMap<>(); // 장르별 총 재생횟수 저장하기 위함
+//        HashMap<String, HashMap<Integer, Integer>> genreInfoMap = new HashMap<>(); // 장르별 노래의 원래 인덱스 정보(idx), 재생횟수(playTimes)
+//
+//        for (int i=0; i< genres.length; i++){
+//            if (!rankMap.containsKey(genres[i])){
+//                HashMap<Integer, Integer> singInfoMap = new HashMap<>();
+//                singInfoMap.put(i, plays[i]); // 노래 정보에는 노래의 인덱스 정보와 재생횟수 저장
+//                genreInfoMap.put(genres[i], singInfoMap);
+//                rankMap.put(genres[i], plays[i]);
+//            }else {
+//                genreInfoMap.get(genres[i]).put(i, plays[i]); // 위에서 선언했던 해시맵 변수를 사용불가능 함 -> genreInfoMap 통해 값 이용
+//                rankMap.put(genres[i], rankMap.get(genres[i])+plays[i]); // 같은 장르에 대해 계속 값 업데이트 (총 횟수 저장)
+//            }
+//        }
+//
+//        List<String> keySet = new ArrayList<>(rankMap.keySet()); // 장르별 총 횟수 정렬을 위한 밑준비 (장르를 따로 저장)
+//        Collections.sort(keySet, (s1, s2) -> rankMap.get(s2) - rankMap.get(s1)); // 내림차순 정렬 공식, 키에 해당하는 value에 대해 진행, 총 재생횟수 기준 내림차순 정렬
+//
+//        /** Collections.sort() 에서 람다를 이용한 정렬
+//          Collections.sort(list, (o1, o2) -> {
+//              // 비교 로직
+//              // ex: Collections.sort(people, (p1, p2) -> p1.getAge() - p2.getAge());
+//          });
+//         Collections.sort(numbers, (a, b) -> a - b); // 오름차순 정렬
+//         Collections.sort(numbers, (a, b) -> b - a); // 내림차순 정렬
+//
+//         람다 표현식 내에서 두 객체의 비교 결과
+//         음수: o1이 o2보다 작음 -> 오름차순
+//         0: 두 객체가 같음
+//         양수: o1이 o2보다 큼 -> 내림차순
+//
+//          */
+//
+//
+//        for(String key: keySet){
+//            HashMap<Integer, Integer> singInfoMap = genreInfoMap.get(key); // 위의 singInfoMap 과는 다름, 각 곡들에 대하여 할 예정
+//            ArrayList<Integer> songsIdx = new ArrayList<>(singInfoMap.keySet());
+//
+//            Collections.sort(songsIdx, (s1, s2) -> singInfoMap.get(s2) - singInfoMap.get(s1)); // 각 곡의 횟수에 대해 내림차순 정렬
+//
+//            answer.add(songsIdx.get(0));
+//            if (songsIdx.size()>1){ // 이 경우는 곡이 2개 이상일 경우
+//                answer.add(songsIdx.get(1));
+//            }
+//        }
+//
+//        return answer.stream().mapToInt(i -> i).toArray();
         /** 스트림에 대해 ->
          answer는 일반적으로 List<Integer>와 같은 컬렉션
          stream() 메서드는 해당 컬렉션에서 스트림을 생성 / 스트림은 데이터의 연속적인 흐름 / 다양한 연산을 수행가능
@@ -69,6 +69,52 @@ public class PgBestAlbum {
          evenStream.forEach(i -> System.out.print(i + " ")); // 출력: 2 4 6 8 10
 
          */
+        ArrayList<Integer> answer = new ArrayList<>();
+        HashMap<String, Integer> timesMap= new HashMap<>(); // 각 장르의 총 재생횟수를 위함
+        HashMap<String, HashMap<Integer, Integer>> singsMap = new HashMap<>(); // 각 장르의 상세 노래정보
+
+
+        for (int i=0; i< genres.length; i++){
+            if(!timesMap.containsKey(genres[i])){ // 없을 경우에는 그 장르에 대해 결과값을 계산하기 위한 밑준비(노래 상세정보 맵, 노래재생횟수)
+                HashMap<Integer, Integer> singInfoMap = new HashMap<>(); // 노래의 상세 정보 담기(인덱스와 재생횟수)
+                singInfoMap.put(i, plays[i]);
+                singsMap.put(genres[i], singInfoMap);
+                timesMap.put(genres[i], plays[i]);
+            }else{
+                singsMap.get(genres[i]).put(i, plays[i]);
+                timesMap.put(genres[i], timesMap.get(genres[i])+plays[i]);
+            }
+        }
+
+        // 값의 합(총 재생횟수)을 통해 우선 정렬할 예정
+        ArrayList<String> keySet = new ArrayList<>(timesMap.keySet());
+        Collections.sort(keySet, (o1,o2) -> timesMap.get(o2) - timesMap.get(o1)); // 총 재생횟수 기준으로 내림차순
+
+        for (String key: keySet){ // 내림차순 정렬된 장르에 대해
+            HashMap<Integer, Integer> singInfoMap = new HashMap<>(singsMap.get(key)); // singsMap에서 노래 상세 정보만 쏙 뺴오기
+
+            ArrayList<Integer> songIdxList = new ArrayList<>(singInfoMap.keySet());
+            Collections.sort(songIdxList, ((o1, o2) -> singInfoMap.get(o2) - singInfoMap.get(o1))); // 노래의 재생횟수에 대한 내림 차순
+
+            answer.add(songIdxList.get(0));
+            if (songIdxList.size()>1){
+                answer.add(songIdxList.get(1));
+            }
+        }
+
+
+        // singsMap.forEach((key, value) -> System.out.println(key +": "+value));
+//        timesMap.forEach((key, value) -> System.out.println(key +": "+value));
+//
+//        for (String key: timesMap.keySet()){
+//            System.out.println(key);
+//        }
+//        for (int v: timesMap.values()){
+//            System.out.println(v);
+//        }
+
+
+        return answer.stream().mapToInt(i->i).toArray();
     }
 
     public static void main(String[] args) {
