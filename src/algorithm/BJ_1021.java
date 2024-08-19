@@ -49,6 +49,7 @@ public class BJ_1021 {
             deque.pollFirst();  // 목표 값을 제거
         }
         System.out.println(count);
+        br.close();
     }
 }
 
