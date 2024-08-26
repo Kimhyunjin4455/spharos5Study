@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="720b1646-f4ba-4748-9fdf-ff2df941dc4e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bj7576.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pr43165.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,18 +33,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.bj1931.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;nakyeong&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ssginc20/skillup_be-main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.bj1931.executor": "Run",
+    "Application.pr43165.executor": "Run",
+    "Application.pr60053 (1).executor": "Run",
+    "Application.pr60053.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "nakyeong",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ssginc20/skillup_be-main"
   }
-}</component>
-  <component name="RunManager" selected="Application.pr60053 (1)">
+}]]></component>
+  <component name="RunManager" selected="Application.pr43165">
     <configuration name="bj1931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bj1931" />
+      <module name="algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pr43165" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pr43165" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,8 +76,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pr60053 (1)" />
+        <item itemvalue="Application.pr43165" />
         <item itemvalue="Application.pr60053" />
+        <item itemvalue="Application.pr60053 (1)" />
         <item itemvalue="Application.bj1931" />
       </list>
     </recent_temporary>
