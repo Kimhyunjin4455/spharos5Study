@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="409daf73-eeaa-4f4b-8911-de7fe4086a78" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/BJ_11055.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/BJ_11725.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/BJ_3273.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,18 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "tlswl7479"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tlswl7479&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Kimhyunjin4455/spharos5Study.git",
-    "accountId": "17758871-dfff-4881-9709-08de97d4b67f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kimhyunjin4455/spharos5Study.git&quot;,
+    &quot;accountId&quot;: &quot;17758871-dfff-4881-9709-08de97d4b67f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
@@ -58,6 +59,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.BJ_11055.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ_11725.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ_3273.executor&quot;: &quot;Run&quot;,
     &quot;Application.BJ_9461.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;jihoon&quot;,
@@ -96,7 +99,10 @@
       <workItem from="1724067463301" duration="32000" />
       <workItem from="1724201075662" duration="5147000" />
       <workItem from="1724247123115" duration="23000" />
-      <workItem from="1724330924737" duration="4236000" />
+      <workItem from="1724330924737" duration="4384000" />
+      <workItem from="1724556056112" duration="10066000" />
+      <workItem from="1724596214688" duration="710000" />
+      <workItem from="1724630842984" duration="685000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
