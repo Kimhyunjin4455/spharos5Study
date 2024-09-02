@@ -9,27 +9,34 @@ public class Programmers_258711 {
         Map<Integer, Integer> in = new HashMap<>();
         int[] answer = new int[4];
 
-        for (int[] edge : edges) { // (1)
+        // 각 정점의 fan-out, fan-in을 계산한다
+        for (int[] edge : edges) {
             out.put(edge[0], out.getOrDefault(edge[0], 0) + 1);
             in.put(edge[1], in.getOrDefault(edge[1], 0) + 1);
         }
 
         for (int node : out.keySet()) {
-            if (out.get(node) > 1) { // (2)
+            if (out.get(node) > 1) {
+                // fan-out이 2이상인 경우, fan-in이 0이라면 해당 정점이 추가된 정점이다
                 if (!in.containsKey(node)) {
                     answer[0] = node;
-                } else {
+                }
+                // 그 외의 경우는 8자 그래프이다
+                else {
                     answer[3] += 1;
                 }
             }
         }
 
         for (int node : in.keySet()) {
-            if (!out.containsKey(node)) { // (3)
+            // 막대 그래프의 마지막 정점은 fan-out이 0인 정점이다
+            if (!out.containsKey(node)) {
                 answer[2] += 1;
             }
         }
-        answer[1] = out.get(answer[0]) - answer[2] - answer[3]; // (4)
+
+        // 도넛 그래프는 그외의 경우이다
+        answer[1] = out.get(answer[0]) - answer[2] - answer[3];
         return answer;
     }
 
