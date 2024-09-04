@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="720b1646-f4ba-4748-9fdf-ff2df941dc4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bj1913.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bj1913.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bj1931.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bj1931.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bj7576.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bj7576.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr43165.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pr43165.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr60053.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pr60053.java" afterDir="false" />
-    </list>
+    <list default="true" id="720b1646-f4ba-4748-9fdf-ff2df941dc4e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,8 +43,8 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.Pr43165">
-    <configuration name="Bj1931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bj1931" />
+    <configuration name="BJ1931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ1931" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,7 +76,7 @@
         <item itemvalue="Application.Pr43165" />
         <item itemvalue="Application.Pr60053" />
         <item itemvalue="Application.Pr60053" />
-        <item itemvalue="Application.Bj1931" />
+        <item itemvalue="Application.BJ1931" />
       </list>
     </recent_temporary>
   </component>
