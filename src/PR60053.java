@@ -43,7 +43,7 @@ class Solution {
     }
 }
 
-public class Pr60053 {
+public class PR60053 {
     public static void main(String[] args) {
         Solution solution = new Solution();
         solution.solution("(()())()");
