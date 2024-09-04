@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="720b1646-f4ba-4748-9fdf-ff2df941dc4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bj7576.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pr43165.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj1913.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bj1913.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj1931.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bj1931.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj7576.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bj7576.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pr43165.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pr43165.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pr60053.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pr60053.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,35 +44,36 @@
     "Application.pr60053 (1).executor": "Run",
     "Application.pr60053.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "nakyeong",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ssginc20/skillup_be-main"
+    "last_opened_file_path": "C:/Users/ssginc20/Downloads/algorithm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.pr43165">
-    <configuration name="bj1931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bj1931" />
+  <component name="RunManager" selected="Application.Pr43165">
+    <configuration name="Bj1931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bj1931" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pr43165" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pr43165" />
+    <configuration name="Pr43165" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pr43165" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pr60053 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pr60053" />
+    <configuration name="Pr60053" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pr60053" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pr60053" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pr60053" />
+    <configuration name="Pr60053" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pr60053" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,10 +81,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pr43165" />
-        <item itemvalue="Application.pr60053" />
-        <item itemvalue="Application.pr60053 (1)" />
-        <item itemvalue="Application.bj1931" />
+        <item itemvalue="Application.Pr43165" />
+        <item itemvalue="Application.Pr60053" />
+        <item itemvalue="Application.Pr60053" />
+        <item itemvalue="Application.Bj1931" />
       </list>
     </recent_temporary>
   </component>

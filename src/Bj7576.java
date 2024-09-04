@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class bj7576 {
+public class Bj7576 {
     public static int bfs(int[][] box, Queue<int[]> queue) {
         int[] dx = {-1, 1, 0, 0};
         int[] dy = {0, 0, -1, 1};

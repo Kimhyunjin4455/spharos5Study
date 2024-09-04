@@ -1,5 +1,5 @@
 
-public class pr43165 {
+public class Pr43165 {
     public static void main(String[] args) {
         int solution = new Solution().solution(new int[]{1, 1, 1, 1, 1}, 3);
         System.out.println("solution = " + solution);

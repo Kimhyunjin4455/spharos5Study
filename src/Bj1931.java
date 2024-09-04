@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class bj1931 {
+public class Bj1931 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
