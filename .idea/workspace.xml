@@ -42,7 +42,7 @@
     "last_opened_file_path": "C:/Users/ssginc20/Downloads/algorithm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Pr43165">
+  <component name="RunManager" selected="Application.PR43165">
     <configuration name="BJ1931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BJ1931" />
       <module name="algorithm" />
@@ -50,15 +50,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pr43165" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pr43165" />
+    <configuration name="PR43165" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PR43165" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pr60053" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pr60053" />
+    <configuration name="PR60053" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PR60053" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,9 +73,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Pr43165" />
+        <item itemvalue="Application.PR43165" />
         <item itemvalue="Application.Pr60053" />
-        <item itemvalue="Application.Pr60053" />
+        <item itemvalue="Application.PR60053" />
         <item itemvalue="Application.BJ1931" />
       </list>
     </recent_temporary>
