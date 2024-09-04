@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="409daf73-eeaa-4f4b-8911-de7fe4086a78" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/BJ_11725.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/BJ_3273.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/BJ_2075.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/BJ_9020.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,25 +56,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BJ_11055.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BJ_11725.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BJ_3273.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BJ_9461.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;jihoon&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BJ_11055.executor": "Run",
+    "Application.BJ_11725.executor": "Run",
+    "Application.BJ_2075.executor": "Run",
+    "Application.BJ_3273.executor": "Run",
+    "Application.BJ_9020.executor": "Run",
+    "Application.BJ_9461.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "jihoon",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Programing/spharos/starbucks_backend_test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -103,6 +106,14 @@
       <workItem from="1724556056112" duration="10066000" />
       <workItem from="1724596214688" duration="710000" />
       <workItem from="1724630842984" duration="685000" />
+      <workItem from="1724634879970" duration="7822000" />
+      <workItem from="1724818880818" duration="87000" />
+      <workItem from="1725169684132" duration="3136000" />
+      <workItem from="1725235379016" duration="81000" />
+      <workItem from="1725286895738" duration="1993000" />
+      <workItem from="1725288965563" duration="529000" />
+      <workItem from="1725321408457" duration="13000" />
+      <workItem from="1725364894408" duration="3355000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
