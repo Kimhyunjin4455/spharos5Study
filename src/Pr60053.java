@@ -33,7 +33,6 @@ class Solution {
         if (checkCorrect(u)) {
             answer = new StringBuilder(u + solution(v));
         } else {
-            System.out.println(u);
             answer = new StringBuilder("(" + solution(v) + ")");
             for (int i = 1; i < u.length()-1; i++) {
                 if (u.charAt(i) == '(') answer.append(')');
