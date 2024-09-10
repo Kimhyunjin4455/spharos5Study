@@ -18,7 +18,7 @@ public class BJ_2075 {
                 int num = Integer.parseInt(st.nextToken());
 
                 if (pq.size() < n) { // 최소 힙의 크기가 n보다 작을 경우 그냥 삽입
-                    pq.offer(num);
+                    pq.offer(num); // num 삽입
                 }
                 else if (pq.peek() < num) { // 최소 힙의 루트(최소 값)보다 큰 경우, peek()은 우선순위가 가장 높은 값(최소 값)
                     pq.poll(); // 최소 힙의 루트 제거

@@ -17,9 +17,9 @@ public class BJ_9020 {
         }
 
         // 에라토스테네스의 체
-        for (int i = 2; i * i <= max; i++){ // i * i <= max인 이유는 i * i 이후의 값은 이미 처리되었기 때문
+        for (int i = 2; i * i <= max; i++){
             if (check[i]) {
-                for (int j = i * i; j <= max; j += i) { // i * i부터 시작하여 i의 배수들을 false로 변경
+                for (int j = i * i; j <= max; j += i) { // i * i부터 시작하여 i의 배수들을 false로 변경, 왜나하면 i의 배수들은 소수가 아니기 때문, i * i부터 시작하는 이유는 i * i 이전의 값은 이미 처리되었기 때문(5 일떄 5 * 2, 5 * 3은 이미 2, 3일때 처리되었음)
                     check[j] = false;
                 }
             }
