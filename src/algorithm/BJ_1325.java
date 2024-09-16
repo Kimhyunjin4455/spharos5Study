@@ -7,7 +7,6 @@ public class BJ_1325 {
     static List<Integer>[] tree;
     static int[] res;
 
-    // BFS 탐색 함수
     public static int bfs(int start) {
         Queue<Integer> queue = new LinkedList<>();
         boolean[] visited = new boolean[tree.length];
