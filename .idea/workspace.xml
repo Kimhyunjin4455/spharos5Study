@@ -57,29 +57,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BJ_11055.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BJ_11725.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BJ_1325.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BJ_2075.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BJ_3273.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BJ_9020.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BJ_9461.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;jihoon&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programing/spharos/starbucks_backend_test&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BJ_11055.executor": "Run",
+    "Application.BJ_11725.executor": "Run",
+    "Application.BJ_1325.executor": "Run",
+    "Application.BJ_2075.executor": "Run",
+    "Application.BJ_3273.executor": "Run",
+    "Application.BJ_9020.executor": "Run",
+    "Application.BJ_9461.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "jihoon",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Programing/백준/backjoon_java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="BJ_1325" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.BJ_1325" />
@@ -144,6 +144,7 @@
       <workItem from="1725842693324" duration="594000" />
       <workItem from="1725926505206" duration="2278000" />
       <workItem from="1725948998616" duration="620000" />
+      <workItem from="1727013435421" duration="294000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
