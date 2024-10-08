@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="409daf73-eeaa-4f4b-8911-de7fe4086a78" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/src/algorithm/BJ_1325.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/BJ_1325.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/BJ_15988.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/BJ_2559.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024-09-16__11_15__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024-09-16_오후_11_15_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +67,12 @@
   "keyToString": {
     "Application.BJ_11055.executor": "Run",
     "Application.BJ_11725.executor": "Run",
+    "Application.BJ_12852.executor": "Run",
     "Application.BJ_1325.executor": "Run",
+    "Application.BJ_15988.executor": "Run",
+    "Application.BJ_1697.executor": "Run",
     "Application.BJ_2075.executor": "Run",
+    "Application.BJ_2559.executor": "Run",
     "Application.BJ_3273.executor": "Run",
     "Application.BJ_9020.executor": "Run",
     "Application.BJ_9461.executor": "Run",
@@ -72,7 +80,7 @@
     "git-widget-placeholder": "jihoon",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Programing/백준/backjoon_java",
+    "last_opened_file_path": "D:/Programing/백준/backjoon/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -105,8 +113,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -146,7 +154,14 @@
       <workItem from="1725842693324" duration="594000" />
       <workItem from="1725926505206" duration="2278000" />
       <workItem from="1725948998616" duration="620000" />
-      <workItem from="1727013435421" duration="294000" />
+      <workItem from="1727013435421" duration="1163000" />
+      <workItem from="1727049784145" duration="3000" />
+      <workItem from="1728111410920" duration="3083000" />
+      <workItem from="1728139848199" duration="389000" />
+      <workItem from="1728140254284" duration="3665000" />
+      <workItem from="1728211876583" duration="6135000" />
+      <workItem from="1728309324755" duration="300000" />
+      <workItem from="1728314264895" duration="2820000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
