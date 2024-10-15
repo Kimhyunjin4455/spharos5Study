@@ -10,8 +10,8 @@ public class BJ_2559 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int n = Integer.parseInt(st.nextToken());
-        int k = Integer.parseInt(st.nextToken());
+        int n = Integer.parseInt(st.nextToken()); // 전체 날짜
+        int k = Integer.parseInt(st.nextToken()); // 연속적인 날짜
 
         int[] arr = new int[n];
 
@@ -20,7 +20,7 @@ public class BJ_2559 {
             arr[i] = Integer.parseInt(st.nextToken());
         }
 
-        // 첫 K일 동안
+        // 첫 K일 동안, 비교를 위해
         int sum = 0;
         for (int i = 0; i < k; i++) {
             sum += arr[i];

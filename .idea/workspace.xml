@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="409daf73-eeaa-4f4b-8911-de7fe4086a78" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/BJ_15988.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/BJ_2559.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024-09-16__11_15__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024-09-16_오후_11_15_[Changes]/shelved.patch" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/BJ_14888.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/BJ_2559.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/BJ_2559.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,33 +61,39 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BJ_11055.executor": "Run",
-    "Application.BJ_11725.executor": "Run",
-    "Application.BJ_12852.executor": "Run",
-    "Application.BJ_1325.executor": "Run",
-    "Application.BJ_15988.executor": "Run",
-    "Application.BJ_1697.executor": "Run",
-    "Application.BJ_2075.executor": "Run",
-    "Application.BJ_2559.executor": "Run",
-    "Application.BJ_3273.executor": "Run",
-    "Application.BJ_9020.executor": "Run",
-    "Application.BJ_9461.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "jihoon",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Programing/백준/backjoon/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BJ_11055.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ_11725.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ_12852.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ_1325.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ_14888.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ_15988.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ_1697.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ_2075.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ_2559.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ_3273.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ_9020.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ_9461.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;jihoon&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programing/백준/backjoon/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="algorithm" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="BJ_1325" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.BJ_1325" />
@@ -162,6 +166,12 @@
       <workItem from="1728211876583" duration="6135000" />
       <workItem from="1728309324755" duration="300000" />
       <workItem from="1728314264895" duration="2820000" />
+      <workItem from="1728375352332" duration="5015000" />
+      <workItem from="1728483913286" duration="2137000" />
+      <workItem from="1728486675832" duration="21000" />
+      <workItem from="1728823492936" duration="5229000" />
+      <workItem from="1728958929041" duration="4547000" />
+      <workItem from="1728979882303" duration="2594000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
