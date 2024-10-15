@@ -65,16 +65,18 @@ public class Bj15686 {
 						minDistance = Math.min(minDistance, distance);
 					}
 				}
+				// 하나의 집에 대하여 그 집은 어떤 치킨 가게의 거리가 가장 가까운지 더해나감
 				res += minDistance;  // 결과에 대해 각 집에서의 최소 치킨 거리를 더해나감 -> 도시의 치킨거리에 대해 모든 경우에 대해 찾아나감
 			}
 
+			// 치킨 가게가 조건에 만족하는 수가 되었을 때, 어떠한 M개의 거리의 합이 최소일지
 			chickenDistance = Math.min(chickenDistance,res);
 
 		}
-		for (int i=index; i<chickenList.size(); i++){
+		for (int i=index; i<chickenList.size(); i++){ // 어떠한 치킨가게를 백트래킹할지 처리
 			visited[i] = true;
 			dfs(i+1, count +1);
-			visited[i] = false;
+			visited[i] = false; // M 조건 처리 후 앞으로의 백트래킹을 위한 처리
 
 		}
 	}
