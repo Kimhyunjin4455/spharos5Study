@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="720b1646-f4ba-4748-9fdf-ff2df941dc4e" name="Changes" comment="" />
+    <list default="true" id="720b1646-f4ba-4748-9fdf-ff2df941dc4e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,18 +33,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BJ10026.executor": "Run",
     "Application.bj1931.executor": "Run",
     "Application.pr43165.executor": "Run",
     "Application.pr60053 (1).executor": "Run",
     "Application.pr60053.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "nakyeong",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ssginc20/Downloads/algorithm"
+    "last_opened_file_path": "/Users/ycm/Documents/study/spharosStudy/spharos5Study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PR43165">
+  <component name="RunManager" selected="Application.BJ10026">
+    <configuration name="BJ10026" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ10026" />
+      <module name="algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BJ1931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BJ1931" />
       <module name="algorithm" />
@@ -73,12 +90,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BJ10026" />
         <item itemvalue="Application.PR43165" />
         <item itemvalue="Application.Pr60053" />
         <item itemvalue="Application.PR60053" />
         <item itemvalue="Application.BJ1931" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-2f79fb23" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,8 +113,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723593622088</updated>
+      <workItem from="1728380879917" duration="1091000" />
+      <workItem from="1728517921915" duration="599000" />
+      <workItem from="1729037976497" duration="4068000" />
+      <workItem from="1729042066938" duration="4804000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
