@@ -34,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BJ10026.executor": "Run",
+    "Application.BJ2156.executor": "Run",
     "Application.bj1931.executor": "Run",
     "Application.pr43165.executor": "Run",
     "Application.pr60053 (1).executor": "Run",
@@ -52,7 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BJ10026">
+  <component name="RunManager" selected="Application.BJ2156">
     <configuration name="BJ10026" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BJ10026" />
       <module name="algorithm" />
@@ -60,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ1931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BJ1931" />
+    <configuration name="BJ2156" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ2156" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BJ2156" />
         <item itemvalue="Application.BJ10026" />
         <item itemvalue="Application.PR43165" />
         <item itemvalue="Application.Pr60053" />
         <item itemvalue="Application.PR60053" />
-        <item itemvalue="Application.BJ1931" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +117,7 @@
       <workItem from="1728380879917" duration="1091000" />
       <workItem from="1728517921915" duration="599000" />
       <workItem from="1729037976497" duration="4068000" />
-      <workItem from="1729042066938" duration="4804000" />
+      <workItem from="1729042066938" duration="10025000" />
     </task>
     <servers />
   </component>
