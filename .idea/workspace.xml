@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="720b1646-f4ba-4748-9fdf-ff2df941dc4e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="720b1646-f4ba-4748-9fdf-ff2df941dc4e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +51,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BJ2156">
+  <component name="RunManager" selected="Application.BJ2667">
     <configuration name="BJ10026" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BJ10026" />
       <module name="algorithm" />
@@ -68,15 +66,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PR43165" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PR43165" />
+    <configuration name="BJ2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ2667" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PR60053" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PR60053" />
+    <configuration name="PR43165" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PR43165" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BJ2667" />
         <item itemvalue="Application.BJ2156" />
         <item itemvalue="Application.BJ10026" />
         <item itemvalue="Application.PR43165" />
         <item itemvalue="Application.Pr60053" />
-        <item itemvalue="Application.PR60053" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +116,7 @@
       <workItem from="1728517921915" duration="599000" />
       <workItem from="1729037976497" duration="4068000" />
       <workItem from="1729042066938" duration="11954000" />
-      <workItem from="1729641392828" duration="520000" />
+      <workItem from="1729641392828" duration="1489000" />
     </task>
     <servers />
   </component>
