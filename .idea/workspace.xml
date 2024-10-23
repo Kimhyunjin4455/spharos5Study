@@ -31,28 +31,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BJ10026.executor": "Run",
-    "Application.BJ2156.executor": "Run",
-    "Application.bj1931.executor": "Run",
-    "Application.pr43165.executor": "Run",
-    "Application.pr60053 (1).executor": "Run",
-    "Application.pr60053.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "nakyeong",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ycm/Documents/study/spharosStudy/spharos5Study",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BJ10026.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BJ2156.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bj1931.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pr43165.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pr60053 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.pr60053.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;nakyeong&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ycm/Documents/study/spharosStudy/spharos5Study&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.BJ2156">
     <configuration name="BJ10026" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BJ10026" />
@@ -117,7 +117,8 @@
       <workItem from="1728380879917" duration="1091000" />
       <workItem from="1728517921915" duration="599000" />
       <workItem from="1729037976497" duration="4068000" />
-      <workItem from="1729042066938" duration="10025000" />
+      <workItem from="1729042066938" duration="11954000" />
+      <workItem from="1729641392828" duration="520000" />
     </task>
     <servers />
   </component>
