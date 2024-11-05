@@ -41,7 +41,7 @@ public class Pg87694 {
 
 		public int solution(int[][] rectangle, int characterX, int characterY, int itemX, int itemY) {
 
-			board = new int[101][101]; // 전체 영역
+			board = new int[101][101]; // 크기의 최대가 50 -> 문제의 힌트로 인해 2배 처리가 필요하기에 50*2+1 처리
 			visited = new boolean[101][101]; // 방문한 좌표인지 확인을 위한 2차원 boolean 배열
 
 			// STEP 1. 모든 사각형의 모서리 영역과 내부 영역을 1로 채운다.
