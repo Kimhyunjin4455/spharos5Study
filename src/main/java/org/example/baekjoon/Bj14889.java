@@ -35,6 +35,8 @@ public class Bj14889 {
 		bw.flush();
 		bw.close();
 		br.close();
+
+
 	}
 
 	// startTeamAbility: 선택된 선수의 능력치
